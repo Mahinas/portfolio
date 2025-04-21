@@ -71,12 +71,14 @@ section p {
 }
 
 img {
-  max-width: 100%;
+  max-width: 80%; /* Reduce the image size */
   height: auto;
+  display: block;
+  margin: 20px auto; /* Center align the images */
   border-radius: 8px;
-  margin: 10px 0;
   box-shadow: 0 2px 8px rgba(0,0,0,0.1);
 }
+
 
 pre {
   background-color: #f1f1f1;
