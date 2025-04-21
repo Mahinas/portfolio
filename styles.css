@@ -85,8 +85,6 @@ img:hover {
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); /* Darker shadow on hover */
 }
 
-
-
 pre {
   background-color: #f1f1f1;
   padding: 10px;
@@ -124,9 +122,4 @@ footer a {
 
 footer a:hover {
   text-decoration: underline;
-}
-footer {
-  background-color: #0077cc;
-  color: #fff;
-  ...
 }
