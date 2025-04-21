@@ -71,13 +71,20 @@ section p {
 }
 
 img {
-  max-width: 80%; /* Reduce the image size */
+  max-width: 70%;  /* Reduced size */
   height: auto;
   display: block;
-  margin: 20px auto; /* Center align the images */
-  border-radius: 8px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  margin: 20px auto;  /* Centering the image */
+  border-radius: 15px;  /* Rounded corners */
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);  /* Subtle shadow */
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; /* Hover effect */
 }
+
+img:hover {
+  transform: scale(1.05);  /* Slight zoom on hover */
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); /* Darker shadow on hover */
+}
+
 
 
 pre {
