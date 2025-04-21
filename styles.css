@@ -1,62 +1,118 @@
 /* styles.css */
 
-:root {
-  --primary-color: #1e293b;
-  --secondary-color: #0f172a;
-  --accent-color: #14b8a6;
-  --text-color: #e2e8f0;
-  --light-gray: #94a3b8;
-  --font-main: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
+/* Reset */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 body {
-  font-family: var(--font-main);
-  background-color: var(--secondary-color);
-  color: var(--text-color);
+  background-color: #f9f9f9;
+  color: #333;
   line-height: 1.6;
   padding: 20px;
+  max-width: 1000px;
+  margin: auto;
 }
 
-nav {
-  background-color: var(--primary-color);
-  padding: 15px 20px;
+main {
+  background-color: #fff;
+  padding: 40px;
   border-radius: 12px;
-  margin-bottom: 30px;
-}
-
-nav ul {
-  display: flex;
-  justify-content: center;
-  list-style: none;
-  gap: 30px;
-}
-
-nav a {
-  text-decoration: none;
-  color: var(--text-color);
-  font-weight: bold;
-  transition: color 0.3s;
-}
-
-nav a:hover {
-  color: var(--accent-color);
+  box-shadow: 0 0 20px rgba(0,0,0,0.05);
 }
 
 header {
   text-align: center;
-  margin-bottom: 50px;
+  margin-bottom: 40px;
 }
 
 header h1 {
-  font-size: 3rem;
+  font-size: 2.5rem;
   margin-bottom: 10px;
 }
 
 header h2 {
-  font-size: 1
+  font-size: 1.3rem;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+header p {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+section {
+  margin-bottom: 40px;
+}
+
+section h2 {
+  font-size: 1.8rem;
+  border-bottom: 2px solid #0077cc;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  color: #0077cc;
+}
+
+section h3 {
+  font-size: 1.3rem;
+  margin-bottom: 10px;
+  color: #444;
+}
+
+section p {
+  font-size: 1rem;
+  margin-bottom: 8px;
+  color: #555;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin: 10px 0;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+pre {
+  background-color: #f1f1f1;
+  padding: 10px;
+  border-radius: 8px;
+  overflow-x: auto;
+  white-space: pre-wrap;
+  margin-bottom: 20px;
+}
+
+footer {
+  background-color: #0077cc;
+  color: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  text-align: center;
+}
+
+footer h2 {
+  margin-bottom: 10px;
+}
+
+footer ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
