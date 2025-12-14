@@ -134,5 +134,26 @@
       </footer>
 
     </main>
+      <script>
+    const text = "Electrical and Electronics Engineer";
+    let i = 0;
+    const speed = 70;
+
+    function typeWriter() {
+      if (i < text.length) {
+        document.getElementById("typing-effect").textContent += text.charAt(i);
+        i++;
+        setTimeout(typeWriter, speed);
+      }
+    }
+
+    window.onload = () => {
+      document.getElementById("typing-effect").textContent = "";
+      typeWriter();
+    };
+  </script>
+</body>
+</html>
+
 
 </html>
