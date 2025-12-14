@@ -2,87 +2,145 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Mahinas | Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mahinas / Resume</title>
   <link rel="stylesheet" href="styles.css" />
 </head>
+
 <body>
 
-  <!-- HERO -->
-  <header class="hero">
+<main>
+
+  <!-- ================= ABOUT / PROFILE ================= -->
+  <header>
     <h1>Mahinas S</h1>
-    <h2 id="typing"></h2>
+    <h2 id="typing-effect">Electrical and Electronics Engineer</h2>
+
     <p>
-      Electrical and Electronics Engineering graduate passionate about
-      automation, software development, and innovative engineering solutions.
+      I am a focused professional engineer who is passionate about my profession, and with a sharp focus on innovation and problem-solving.
+      I work best in difficult environments and am committed to driving organizations' success with learning, collaboration, and out-of-the-box thinking.
+      Having a sharp focus on developing technical and analytical strengths, my goal is to enable development and offer innovative solutions with
+      collaboration and technology.
     </p>
   </header>
 
-  <!-- PROJECTS -->
-  <section class="section">
-    <h2 class="section-title">Projects</h2>
+  <!-- ================= PROJECTS ================= -->
+  <section>
+    <h2>Featured Projects</h2>
+    <p>
+      View selected projects below. More information can be found at
+      <a href="https://www.linkedin.com/in/mahinas2003" target="_blank">mahinas.com</a>.
+    </p>
 
-    <div class="project-grid">
+    <section>
+      <h3>LADLE TRACKING SYSTEM</h3>
+      <img src="images/completion_certificate.jpeg" alt="completion_certificate" />
 
-      <div class="project-card">
-        <img src="images/completion_certificate.jpeg" alt="Ladle Tracking">
-        <h3>Ladle Tracking System</h3>
-        <p>
-          QR-based ladle tracking using OpenCV, YOLO, OCR and Python GUI
-          for industrial automation.
-        </p>
+      <pre>
+-Developed software for ladle tracking using QR code technology with pyzbar and openCV, utilizing a tkinter framework and included user authentication for enhanced security.
+
+- Utilized advanced object detection using yolo algorithm to efficiently track ladles and employed OCR to extract unique numbers for accurate identification.
+
+- Applied preprocessing techniques including grayscale conversion, histogram equalization, blurring, thresholding, and contour identification to optimize images for OCR.
+      </pre>
+    </section>
+
+    <section>
+      <h3>ENERGY HARVESTING FROM ROADWAYS FOR AUXILIARY SYSTEM IN ELECTRIC VEHICLE</h3>
+
+      <div class="project-images">
+        <img src="images/hardware_prototype.jpg" alt="Closed loop hardware prototype" />
+        <img src="images/SIDO_converter_setup.jpg" alt="SIDO Buck-Boost converter setup" />
       </div>
 
-      <div class="project-card">
-        <img src="images/hardware_prototype.jpg" alt="Energy Harvesting">
-        <h3>Energy Harvesting for EV</h3>
-        <p>
-          Hybrid renewable energy system using piezoelectric and solar sources
-          with ML-tuned PI controller.
-        </p>
-      </div>
-
-    </div>
-  </section>
-
-  <!-- EXPERIENCE -->
-  <section class="section">
-    <h2 class="section-title">Internship</h2>
-
-    <div class="card">
-      <h3>Project Intern – JSW Steel, Salem</h3>
       <p>
-        Worked on Ladle Tracking System implementation and automation
-        in steel making processes.
+        To minimize the reliance of auxiliary battery on the main traction battery by powering auxiliary systems through a combined renewable energy source
+        such as piezoelectricity and solar power. The output voltage is regulated using the XG-Boost machine learning algorithm to optimally tune the PI
+        controller, ensuring efficient and stable power delivery to auxiliary systems.
       </p>
-    </div>
+    </section>
+  </section>
 
-    <div class="card">
-      <h3>Implant Trainee – NLC, Neyveli</h3>
+  <!-- ================= INTERNSHIP ================= -->
+  <section>
+    <h2>Internship</h2>
+
+    <section>
+      <h3>PROJECT INTERN</h3>
+      <p>JSW STEEL LTD | SALEM</p>
+      <p>2 weeks</p>
       <p>
-        Hands-on experience in transformer repairing and overhauling.
+        Understanding the steel making process and the efficient use of Ladle Tracking System for Industrial Automation and implemented the project
+        which empowers with accurate ladle number recognition in SMS
       </p>
-    </div>
+    </section>
+
+    <section>
+      <h3>IMPLANT TRAINEE</h3>
+      <p>NEYVELI LIGNITE CORPORATION | NEYVELI</p>
+      <p>2 weeks</p>
+      <p>
+        Gained valuable insights on Repairing and Overhauling of Transformer through hands-on practice.
+      </p>
+    </section>
   </section>
 
-  <!-- EDUCATION -->
-  <section class="section">
-    <h2 class="section-title">Education</h2>
+  <!-- ================= EDUCATION ================= -->
+  <section>
+    <h2>Education</h2>
 
-    <div class="card">
-      <h3>Coimbatore Institute of Technology</h3>
-      <p>B.E – Electrical and Electronics Engineering</p>
-      <p>CGPA: 7.75 | 2021–2025</p>
-    </div>
+    <section>
+      <h3>COIMBATORE INSTITUTE OF TECHNOLOGY</h3>
+      <p>BE EEE</p>
+      <p>CGPA - 7.75*</p>
+      <p>2021 - 2025</p>
+    </section>
+
+    <section>
+      <h3>ST. JOHN'S MATRIC HR SEC SCHOOL</h3>
+      <p>HSC</p>
+      <p>92.98%</p>
+      <p>2020 - 2021</p>
+    </section>
+
+    <section>
+      <h3>ST. JOHN'S MATRIC HR SEC SCHOOL</h3>
+      <p>SSLC</p>
+      <p>94.8%</p>
+      <p>2018 - 2019</p>
+    </section>
   </section>
 
-  <!-- FOOTER -->
+  <!-- ================= CONTACT ================= -->
   <footer>
-    <h2>Let’s Connect</h2>
-    <a href="mailto:mahinas2003@gmail.com">mahinas2003@gmail.com</a>
-    <a href="https://www.linkedin.com/in/mahinas2003/" target="_blank">LinkedIn</a>
+    <h2>Let's Keep in Touch!</h2>
+    <ul>
+      <li><a href="mailto:mahinas2003@gmail.com">mahinas2003@gmail.com</a></li>
+      <li><a href="https://www.linkedin.com/in/mahinas2003/" target="_blank">Mahinas S</a></li>
+    </ul>
   </footer>
 
-  <script src="script.js"></script>
+</main>
+
+<!-- ================= TYPING EFFECT ================= -->
+<script>
+  const text = "Electrical and Electronics Engineer";
+  let index = 0;
+  const speed = 80;
+
+  function typeEffect() {
+    if (index < text.length) {
+      document.getElementById("typing-effect").textContent += text.charAt(index);
+      index++;
+      setTimeout(typeEffect, speed);
+    }
+  }
+
+  window.onload = () => {
+    document.getElementById("typing-effect").textContent = "";
+    typeEffect();
+  };
+</script>
+
 </body>
 </html>
