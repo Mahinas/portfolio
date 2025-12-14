@@ -1,4 +1,3 @@
-
 /* styles.css */
 
 /* Reset */
@@ -69,7 +68,6 @@ section p {
   font-size: 1rem;
   margin-bottom: 8px;
   color: #555;
-  padding: 0;
 }
 
 img {
@@ -125,3 +123,4 @@ footer a {
 footer a:hover {
   text-decoration: underline;
 }
+
